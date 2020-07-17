@@ -1,4 +1,5 @@
 # LOAM-vehicle-filter
+Removes vehicle points
 
 ## Prererequisites
 
@@ -27,4 +28,6 @@ roslaunch aloam_velodyne aloam_velodyne_HDL_32.launch
 rosbag play <YOUR_BAG.bag>
 
 ```
+## Acknowledgements
 
+Thanks to LOAM(J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time)
